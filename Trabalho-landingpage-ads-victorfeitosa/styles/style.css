@@ -1,0 +1,299 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+ body {
+    background-color:   #ffffff;
+    
+}  
+
+
+
+header{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    width: 1200px;
+    margin: auto;
+}
+
+#button1 {
+    background-color:#458FF6;
+    color: #ffffff;
+    border-radius: 35px;
+    border: 0;
+    width: 200px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+#button2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #458FF6;
+    background-color: #ffffff;
+    color: #458FF6;
+    padding: 10px;
+    border-radius: 35px;
+    width: 200px;
+    height: 60px;
+}
+
+#button3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #ffffff;
+    background-color: #458FF6;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 35px;
+    width: 200px;
+    height: 60px;
+}
+
+#button4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #458FF6;
+    background-color: #ffffff;
+    color: #458FF6;
+    padding: 20px;
+    border-radius: 40px;
+    width: 240px;
+    height: 80px;
+}
+
+#learn-more {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #000000;
+}
+
+#v1 {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+}
+
+#v1 img {
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+#v2 {
+    width: 1200px;
+    margin: auto;
+}
+
+#v3 {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    height: 700px;
+}
+
+#v3 img {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 150px;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    font-size: 40px;
+}
+
+
+#agendar {
+    margin: 150px;
+    margin-bottom: 30px;
+}
+
+hr {
+    width: 56px;
+    height: 2px;
+    color: black;
+    background-color: black;
+    border-radius: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#hr1 {
+    width: 56px;
+    height: 2px;
+    color: black;
+    background-color: black;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 0px;
+}
+
+.card h3{
+    margin: 40px;
+    margin-bottom: -30px;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+.card p {
+    margin: 40px;
+    font-size: 15px;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.40rem;
+    margin-top: 5rem;
+}
+
+.cards2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.40rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.card {
+    background-color: #ffffff66;
+    height: 20rem;
+    width: 23rem;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-end;
+    border: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 8px 30px  rgba(228, 227, 227, 0.304);
+}
+
+#icones {
+    margin-left: 40px;
+    margin-top: 70px;
+    width: 10px;
+    height: 80px;
+}
+
+
+
+.container { 
+    height: 500px;
+    display: flex;
+    gap: 35rem;
+    align-items:center;   
+}
+
+#tabelas {
+    width: 20px;
+    height: 400px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+    
+    
+}
+
+#tabelas2 {
+    width: 20px;
+    height: 400px;
+    margin-bottom: 0px;
+}
+
+input {
+    width: 500px;
+    height: 60px;
+    border-radius: 13px;
+    border: 0;
+    margin-bottom: 60px;
+}
+
+#azul {
+    background-color: #458FF6;
+}
+
+#enviar {
+    display: flex;
+    height: 150px;
+    justify-content: center;
+}
+
+#aside2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 70px;
+    margin-bottom: 300px;
+}
+
+#aside2 button{
+    margin-top: 40px;
+}
+
+footer{
+    background-color: #458FF6;
+    height: 500px;
+}
+
+#fim {
+    display: flex;    
+    flex-direction: row;
+    align-items: center;  
+}
+
+#v4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 500px;
+    margin-left: 100px;
+    margin-bottom: -110px;
+}
+
+#nav-footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 10px;
+    margin-left: 90px;
+
+}
+
+#nav-footer li {
+    padding: -10px;
+    margin-bottom: 4px;
+}
+
+#p2 {
+    margin-top: 20px;
+    margin-right: 50px;
+}

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+a {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 24.55px;
+    color:#282039;
+}
+
+a:hover {
+    color: rgb(73, 112, 239);
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+
+p {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 32px;
+    color: #7D7987;
+}
+
+button {
+    font-size: 18px;
+}
+
+#ourservices p {
+    max-width: 1200px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 18px;
+}
+
+label {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+#aside2 {
+    font-size: 30px;
+
+}
+
+#v4 p{
+    color: white;
+    font-size: 17px;
+}
+
+#nav-footer {
+    font-size: 15px;
+}
+
+#nav-footer li {
+    color: white;
+}
